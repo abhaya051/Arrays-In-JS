@@ -38,6 +38,7 @@
 //   console.log(i);
 // }
 
+// ---------------------------------------------------------------------------------
 // Methods of Arrays
 //  First Is Push Method
 // let veggies = ["Potato", "Tomato", "Beans"];
@@ -93,3 +94,46 @@
 // Replace Splice
 // num.splice(3, 0, "Rohan");
 // console.log(num);
+
+// let color = [
+//   "Orange",
+//   "Red",
+//   "Blue",
+//   "Green",
+//   "Purple",
+//   "Pink",
+//   "Yellow",
+//   "Peach",
+// ];
+// for (let i = 0; i < color.length; i++) {
+//   console.log(color[i]);
+// }
+
+// Question Task
+// For A Given Array With Marks of Students - [85,97,44,37,76,60]
+// Find The Average Marks Of the Class
+
+// let marks = [85, 97, 44, 37, 76, 60];
+// // Without Loop
+// // let avg = marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5];
+// // // console.log(avg / marks.length);
+
+// let marks = [85, 97, 44, 37, 76, 60];
+// let add = 0;
+// for (let val of marks) {
+//   add = add + val;
+// }
+// avg = add / marks.length;
+// console.log(avg);
+
+// let marks = [85, 97, 44, 37, 76, 60, 85];
+// let sum = marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5];
+// console.log(sum / marks.length);
+
+// let add = 0;
+// for (let val of marks) {
+//   add = add + val;
+// }
+// console.log(add);
+// let avg = add / marks.length;
+// console.log(avg);
